@@ -21,3 +21,10 @@ Swagger:
 ```
 http://localhost:8080/swagger-ui.html
 ```
+
+# Integrantes:
+- Gabriela Moguinho Gonçalves RM556143
+
+- Henrique Maciel RM556480
+
+- Mariana Christina Rodrigues Fernandes RM554773
