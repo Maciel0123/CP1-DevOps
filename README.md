@@ -1,9 +1,23 @@
-# Spring Boot + MySQL (Docker) — CRUD Usuários (nome, idade)
+# Docker Compose
 Suba com:
 ```
 docker compose up -d --build
 docker compose ps
 docker compose logs -f app
 ```
-Endpoints: `/api/users` (GET, POST), `/api/users/{id}` (GET, PUT, DELETE).
-Swagger: `http://localhost:8080/swagger-ui.html`.
+## Endpoints
+
+- GET, POST:
+```
+http://localhost:8080/api/users
+```
+
+- GET, PUT, DELETE:
+```
+http://localhost:8080/api/users/{id}
+```
+
+Swagger: 
+```
+http://localhost:8080/swagger-ui.html
+```
